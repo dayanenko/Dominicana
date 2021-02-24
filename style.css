@@ -1,0 +1,151 @@
+
+@font-face {
+	font-family: Jalie;
+src: url('fonts/Jalie.ttf');
+}
+
+@font-face {
+	font-family: Blocco;
+src: url('fonts/Blocco.ttf');
+}
+
+video {
+
+width: 100%;
+height: 100%;
+object-fit: cover;
+	
+}
+
+.background-box {
+	
+	width: 100%;
+	height: 600px;
+}
+
+
+body {
+margin: 0;
+padding: 0;
+/*background-image: url(img/75792.jpg);*/
+}
+
+.main {
+	font-family: Blocco;
+	color: white;
+position: absolute;
+	font-size: 90px;
+  left: 50%;
+  top: 30%;
+  margin: 0;
+  text-align: center;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+	
+}
+
+.about-heading {
+    font-family: Helvetica;
+	text-align: center;
+}
+
+.about-block {
+
+margin: 0 auto;
+width: 80%;
+	
+}
+
+.about-img {
+	width: 681px;
+	height: 489px;
+	display: inline-block;
+	float: left;	
+}
+
+
+.about-text {
+	font-family: Helvetica;
+	text-align: justify;
+	font-size: 24px;
+	
+
+}
+
+.footer {
+	background-color: grey;
+	height: 100px; 
+	clear: both;
+}
+
+footer p {
+	text-align: right;
+	padding-right: 50px;
+	padding-top: 50px;
+}
+
+.navbar {
+	font-size: 24px; 
+	z-index: 1;
+	margin-left: 10px;
+}
+
+
+.logo-flag {
+height: 65px;
+weight: 125px;
+}
+
+.nav-link {
+font-family: Blocco;
+font-weight: bold;
+color: white;
+}
+
+
+
+
+@media screen and (max-width: 773px) {
+	.about-img {
+		width: 90%; 
+		height: 90%;
+		margin: 0 auto;
+		float: none;
+		display: block;	
+	}
+}
+
+@media screen and (max-width: 1564px) and (min-width: 773px) {
+	.about-img {
+		width: 70%; 
+		height: 70%;
+		margin: 0 auto;
+		float: none;
+		display: block;	
+	}
+}
+
+
+@media screen and (max-width: 1564px) {
+
+	.about-text {
+		display: inline-block;
+	}
+}
+
+@media screen and (max-width: 642px) {
+
+	.nav {
+		display: block !important;
+	}
+}
+
+.main-img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+
+}
